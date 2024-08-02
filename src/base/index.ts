@@ -55,9 +55,9 @@ export class PayPay {
       throw new PayPayError('Phone is not valid', 0).fire()
     }
 
-    if (!isPassword(password)) {
-      throw new PayPayError('Password is not valid', 0).fire()
-    }
+    // if (!isPassword(password)) {
+    //   throw new PayPayError('Password is not valid', 0).fire()
+    // }
 
     this.phone = phone
     this.password = password
